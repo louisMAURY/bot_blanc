@@ -17,5 +17,6 @@ async def on_message(message):
         return
     if message.content in liste_blanc:
         await client.send_message(message.channel, "BLANC !")
+        await client.send_file(message.channel, "blanc.png")
 
 client.run(token)
