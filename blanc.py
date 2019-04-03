@@ -8,7 +8,7 @@ with open("liste_de_blanc.txt" , "r" , encoding="utf8") as fichier:
 
 @client.event
 async def on_ready():
-    print("The bot is running!")
+    print("Prêt à combler les blanc !")
     await client.change_presence(game=discord.Game(name="Jeu du ? BLANC!"))
 
 @client.event
