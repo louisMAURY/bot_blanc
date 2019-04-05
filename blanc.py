@@ -9,7 +9,7 @@ with open("liste_de_blanc.txt" , "r" , encoding="utf8") as fichier:
 @client.event
 async def on_ready():
     print("Prêt à combler les blanc !")
-    await client.change_presence(game=discord.Game(name="Jeu du ? BLANC!"))
+    await client.change_presence(game=discord.Game(name="Combler les blanc"))
 
 @client.event
 async def on_message(message):
