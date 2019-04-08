@@ -1,4 +1,4 @@
-riz
+﻿riz
 mariage
 vin
 requin
@@ -26,3 +26,12 @@ sable
 poivre
 jambon
 ldlc
+bac
+brevet
+blanc de
+cul
+fer
+carbon
+bouillon
+redou
+trou
