@@ -1,6 +1,6 @@
 import discord
 
-token = "NTYyMzU0NjAwNDk4NDI5OTc5.XKJlXw.32K4BXIlH2GDd8JS1j6zHDUw0aQ"
+token = "nope"
 client = discord.Client()
 with open("liste_de_blanc.txt" , "r" , encoding="utf8") as fichier:
     contenu = fichier.read()
